@@ -1,0 +1,98 @@
+/*
+Theme Name: JHT FR
+Theme URI: http://www.jacuzzihottubs.com/fr/
+Description: WP child theme for JacuzziHotTubs.com/FR
+Author: Ninthlink, Inc
+Author URI: http://www.ninthlink.com
+Template: jht
+Version: 1.0
+*/
+
+@import url('../jht/style.css');
+
+sup { vertical-align: super !important; font-size: .6em; vertical-align: .6em; }
+
+.hd .primaryMenu { right: 0; left: auto }
+.hd .primaryMenu li.menu-item a { padding: 0 16px }
+.hd .primaryMenu li.menu-item.last a { padding-right: 0 }
+.hd .primaryMenu > li.menu-item.first > a { padding: 0 }
+.hd .primaryMenu li ul li a:before { background: none }
+.hd .primaryMenu li.menu-item ul li > a { padding-left: 12px }
+.hd .primaryMenu li ul li div.superMenu ul.grid4.best li .thumb { height: 98px }
+.hd .primaryMenu li ul li div.superMenu ul.grid4.best li .thumb img { max-height: 75px; margin-top: 10px; }
+.hd .primaryMenu li ul li div.superMenu ul.grid4.best li .tag { height: 72px; display: table-cell; vertical-align: middle }
+.hd .primaryMenu li ul li div.superMenu ul li a span { font-size: 10px; text-transform: lowercase }
+.hd .primaryMenu li ul li div.superMenu ul li a span.rollover span { text-transform: uppercase }
+.hd .primaryMenu li ul li div.search-flop.why ul.big li a { text-transform: none }
+.hd .primaryMenu li.menu-item ul li div.superMenu ul li a sup, .hd .primaryMenu li.menu-item ul li div.superMenu ul.grid4 li .h sup { font-size: 10px; position: relative; top: -3px; left: 2px }
+.hd .primaryMenu li.menu-item ul li div.superMenu ul li a .rollover sup { top: -7px; }
+
+/* home slides */
+.hero .slide h3 sup { font-size: 20px; position: relative; top: -9px }
+.hero .slide7 .btn { position: absolute; left: 400px; top: 250px }
+
+.hero .slide{
+	width: 100%;
+	height:501px;
+	overflow: hidden;
+	background:#000 url(images/heros/j-300-fr-hero.jpg) bottom center no-repeat; /* couple-in-jacuzzi-bg.jpg  <-- use this jpg when reverting to default slide order*/
+}
+
+/* hydrotherapy */
+.black-bg.doctors { font: 400 24px 'GSMT', arial, sans-serif; }
+.tightgrid .threeColEven.dark .col .inner h2 { font-size: 13px; }
+
+/* dealer landing */
+#playJHTvideo span.play-now { width: 160px }
+div#sms-form h3 { font-size: 24px; }
+span.send-to-phone-button { cursor: pointer; }
+.dealer-page .dealer-locator-form p { font-size: 12px }
+.dealer-page .dealer-locator-form input#saddr { width: 226px }
+.dealer-page .dealer-locator-form #get_directions { width: 28px }
+.dealer-page .dealer-details .the-words { font-weight: normal; font-size: 11px; padding-left: 4px }
+#sms-form label { font-size: 12px !important }
+#sms-form input.black-button[type="submit"] { padding: 12px 0 !important; left: 0 !important; width: 256px !important; text-align: center !important; font-size: 10px !important }
+.dealer-page .dealer-banner-rt .black-button.rt { width: 173px }
+.dealer-page .dealer-banner-rt .black-button.rt .send-to-phone-button { background-image: url(images/icons/button-send-to-phone.png) }
+.dealer-page .dealer-banner-rt .black-button.lt { width: 150px; right: 191px !important }
+.dealer-page .dealer-banner-rt .black-button.lt .print-button { background-image: url(images/icons/button-print-page.png) }
+
+/* tub cat landing */
+.grid3 li .inner p a.grey-gold-btn { width: 146px !important }
+.hot-tub-landing .hero .grid3 li .inner p, .scall a { letter-spacing: 0 }
+.tub-menu-category li ul { top: 380px }
+.hot-tub-landing .hero .grid3 li .inner.htl { padding: 0; width: 230px; height: 250px; }
+.hot-tub-landing .hero .grid3 li .inner.htl h2.ct { position: absolute; left: 16px; bottom: 94px }
+.hot-tub-landing .hero .grid3 .inner h2 sup { font-size: 15px; position: relative; left: 1px; top: -8px }
+
+.hot-tub-detail .twoCol .side p { letter-spacing: 0.05em }
+.hot-tub-detail .twoCol .main .description p { line-height: 18px }
+.page .twoCol .side ul.menu li a {
+	height: auto;
+	min-height: 16px;
+	line-height: 20px;
+	padding: 10px 20px;
+}
+.owners-corner .splitrow2 .tbox h3 { padding-top: 0; }
+#moreinfo p { margin-bottom: 21px }
+#moreinfo { padding-bottom: 6px }
+#moreinfo sup, .hot-tub-landing .hero .inner p sup, .threeColEven table tr.blueGrad th sup, .tightgrid .threeColEven .col .inner p sup { font-size: 75%; position: relative; top: -3px }
+.tightgrid .threeColEven .col .inner h2 sup { font-size: 10px; position: relative; top: -6px }
+.hot-tub-detail .twoCol .main h1, .hot-tub-detail .twoCol .main h2 { line-height: 26px }
+.hot-tub-detail .twoCol .main h1 sup, .hot-tub-detail .twoCol .main h2 sup { font-size: 70%; vertical-align: top }
+.hot-tub-detail .twoCol .main p { line-height: 21px }
+.hot-tub-detail .twoCol .main p sup, .hot-tub-detail .container .twoCol .side p sup, .hot-tub-detail .twoCol .main .specifications table td sup { vertical-align: top }
+
+#land #page-header .content.ab-b { background: url(images/landing/land-bg_B.jpg) no-repeat 0 0 }
+
+/* about */
+.about .tightgrid .twoCol .side .inner, .about .tightgrid .threeColEven .col .inner { padding: 16px }
+.about .bd .tightgrid .twoCol .side .inner p { margin: 0 }
+.about .timeline.right.y1960 .inner { padding-top: 16px }
+.about .tightgrid .twoCol .side .inner h1,.about  .tightgrid .threeColEven .col .inner h1 { margin: 0 0 5px }
+
+
+.hero.buyersguide2 .wrap form { height: 375px; }
+.hero.buyersguide2 .wrap {
+	background: url(images/heros/free-buyers-guide.jpg) no-repeat -30px 0px;
+}
