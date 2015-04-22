@@ -106,7 +106,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
                     <div class="overflow-left-2of3">
                         <figure class="align-right">
                             <div class="img span1of1">
-                           	 <img src="<?php bloginfo('template_url'); ?>/images/landing/easily_compare_models.jpg" alt="" />
+                           	 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/landing/easily_compare_models.jpg" alt="" />
                             </div>
                         </figure>
                     </div>
@@ -125,7 +125,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
                 	<div class="overflow-right-1of2">
                         <figure class="span1of1">
                             <div class="img">
-                            	<img src="<?php bloginfo('template_url'); ?>/images/landing/learn_about_the_power.jpg" alt="" />
+                            	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/landing/learn_about_the_power.jpg" alt="" />
                             </div>
                         </figure>
                 	</div>
@@ -144,7 +144,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
                     <div class="overflow-left-2of3">
                         <figure class="align-right">
                             <div class="img span1of1">
-                           	 <img src="<?php bloginfo('template_url'); ?>/images/landing/see_how_easy.jpg" alt="" />
+                           	 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/landing/see_how_easy.jpg" alt="" />
                             </div>
                         </figure>
                     </div>
@@ -166,7 +166,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
             </article>
             <article class="row grad lastbro">
                 <div class="col span1of1">
-                	<img src="<?php bloginfo('template_url'); ?>/images/landing/bottom_brochure_fr.png" alt="Brochure" class="alignleft brochure" />
+                	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/landing/bottom_brochure_fr.png" alt="Brochure" class="alignleft brochure" />
                     <h3>25 pages de faits et de photos</h3>
                     <span>D&eacute;couvrez pourquoi Jacuzzi<sup>MD</sup> est le nom qui d&eacute;finit ce que vous attendez d'un spa : des produits performants qui mettent &agrave; profit la capacit&eacute; de l'eau &agrave; vous d&eacute;tendre et &agrave; vous &eacute;nergiser. </span>
                     <a href="#download" class="btn alignright">T&eacute;l&eacute;charger maintenant</a>
