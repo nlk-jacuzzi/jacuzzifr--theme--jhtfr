@@ -29,7 +29,7 @@ sup { vertical-align: super !important; font-size: .6em; vertical-align: .6em; }
 
 /* home slides */
 .hero .slide h3 sup { font-size: 20px; position: relative; top: -9px }
-.hero .slide7 .btn { position: absolute; left: 400px; top: 250px }
+.hero .slide7 .btn { position: absolute; left: 400px; top: 200px }
 
 .hero .slide{
 	width: 100%;
@@ -83,8 +83,8 @@ span.send-to-phone-button { cursor: pointer; }
 .hot-tub-detail .twoCol .main p { line-height: 21px }
 .hot-tub-detail .twoCol .main p sup, .hot-tub-detail .container .twoCol .side p sup, .hot-tub-detail .twoCol .main .specifications table td sup { vertical-align: top }
 
-#land #page-header .content.ab-b { background: url(images/landing/land-bg_B.jpg) no-repeat 0 0 }
-
+#land #page-header .content.ab-b { background: url(images/landing/herofrench.jpg) no-repeat 0 0 }
+#land #page-header .content.ab-b form.bro { top: 550px; left: 186px; }
 /* about */
 .about .tightgrid .twoCol .side .inner, .about .tightgrid .threeColEven .col .inner { padding: 16px }
 .about .bd .tightgrid .twoCol .side .inner p { margin: 0 }

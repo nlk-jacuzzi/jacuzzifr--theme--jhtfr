@@ -17,13 +17,14 @@ get_header(); ?>
                 <a href="<?php echo get_bloginfo('url') ?>/j-500/" target="_blank" class="" style="display: block; position: relative; width: 200px; height: 40px; left: 116px; margin-left: -100px; top: 307px;">&nbsp;</a>
             </div>
         </div>
-
+		
+		<?php /* ?>
         <div class="slide8 slide" style="display: none;">
             <a class="slidebg" href="<?php echo get_stylesheet_directory_uri(); ?>/images/heros/j-300-fr-hero.jpg"></a>
             <div class="wrap">
                 <a href="<?php echo get_bloginfo('url') ?>/the-j-300-collection/" class="" style="display: block; position: relative; width: 200px; height: 40px; left: 50%; margin-left: -100px; top: 430px;">&nbsp;</a>
             </div>
-        </div>
+        </div> <?php */ ?>
 
 
 	    <div class="slide1 slide" style="display: none;">
@@ -41,7 +42,7 @@ get_header(); ?>
             </div>
         </div>
 
-
+		<?php /* ?>
         <div class="slide2 slide" style="display:none">
         	<a class="slidebg" href="<?php bloginfo('template_url'); ?>/images/heros/woman-under-water.jpg"></a>
         	<div class="wrap">
@@ -58,7 +59,7 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-
+		<?php */ ?>
 
         <div class="slide4 slide" style="display:none">
         	<a class="slidebg" href="<?php echo get_stylesheet_directory_uri(); ?>/images/heros/couple-in-jacuzzi-full.jpg"></a>
@@ -67,14 +68,14 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-
-
+		
+		<?php /* ?>
         <div class="slide5 slide" style="display:none">
         	<a class="slidebg" href="<?php echo get_stylesheet_directory_uri(); ?>/images/heros/family-in-jacuzzi.jpg"></a>
         	<div class="wrap">
             	<a href="<?php echo get_permalink(20) ?>" class="btn yellow-bright">Voir les spas de dimensions moyennes</a>
             </div>
-        </div>
+        </div><?php */ ?>
         <div class="slide6 slide" style="display:none">
         	<a class="slidebg" href="<?php echo get_stylesheet_directory_uri(); ?>/images/heros/woman-under-water-full.jpg"></a>
         	<div class="wrap">
@@ -82,7 +83,7 @@ get_header(); ?>
             </div>
         </div>
         <div class="slide7 slide" style="display:none">
-            <a class="slidebg" href="<?php echo get_stylesheet_directory_uri(); ?>/images/heros/exclusiveCPa.jpg"></a>
+            <a class="slidebg" href="<?php echo get_stylesheet_directory_uri(); ?>/images/heros/slide_last_fr_lr.jpg"></a>
         	<div class="wrap">
             	<a href="<?php echo get_permalink(9674) ?>" class="btn yellow-bright">Trouver un dÉtaillant</a>
             </div>
