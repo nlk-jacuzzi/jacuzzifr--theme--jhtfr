@@ -20,7 +20,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
 	<div class="page-header" id="page-header">
     	<div class="content center ab-b">
         	<div class="block span1of1">
-            	<h1><strong class="small">BROCHURE DE JACUZZI HOT TUBS </strong>25 pages de faits et de photos - <strong>BROCHURE GRATUITE</strong></h1>
+            	<h1><strong class="small">BROCHURE DE SPAS JACUZZI<sup>®</sup></strong>25 pages de faits et de photos - <strong>BROCHURE GRATUITE</strong></h1>
                 <h2>Ayez instantan&eacute;ment acc&egrave;s &agrave; des tableaux de comparaison, &agrave; de superbes photos, &agrave; toutes les sp&eacute;cifications et descriptions des produits.</h2>
             </div>
             <form action="http://<?php echo $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" method="post" id="leadForm" class="pform bro"><?php avala_hidden_fields( 35, 9, 12 ); ?>
@@ -169,7 +169,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post();
                 	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/landing/bottom_brochure_fr.png" alt="Brochure" class="alignleft brochure" />
                     <h3>25 pages de faits et de photos</h3>
                     <span>D&eacute;couvrez pourquoi Jacuzzi<sup>MD</sup> est le nom qui d&eacute;finit ce que vous attendez d'un spa : des produits performants qui mettent &agrave; profit la capacit&eacute; de l'eau &agrave; vous d&eacute;tendre et &agrave; vous &eacute;nergiser. </span>
-                    <a href="#download" class="btn alignright">T&eacute;l&eacute;charger maintenant</a>
+                    <a href="#leadForm" class="btn alignright">T&eacute;l&eacute;charger maintenant</a>
                 </div>
             </article>
 		</div>
