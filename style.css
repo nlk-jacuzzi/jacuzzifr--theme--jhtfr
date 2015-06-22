@@ -96,3 +96,13 @@ span.send-to-phone-button { cursor: pointer; }
 .hero.buyersguide2 .wrap {
 	background: url(images/heros/free-buyers-guide.jpg) no-repeat -30px 0px;
 }
+
+
+.page .twoCol .main.request-pricing{
+	background: none;
+	min-height:480px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: -12px;
+	width: 500px;
+}
