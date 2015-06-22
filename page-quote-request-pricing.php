@@ -36,7 +36,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
                 <div class="main request-pricing">
                     <h1 class="title"><?php the_title(); ?></h1>
                     <p>Veuillez simplement remplir ce formulaire pour obtenir le prix du spa idéal pour vous. Le distributeur Jacuzzi accrédité de votre région communiquera avec vous afin de vous renseigner sur les modèles offerts, leur prix et les soldes actuellement en vigueur dans votre secteur.<br><br>*Champ obligatoire.</p>
-					<?php echo do_shortcode('[gravityform id="14" name="No-Obligation Price Quote" title="false" description="false"]'); ?>
+					<?php echo do_shortcode('[gravityform id="11" name="Sans obligation de prix" title="false" description="false"]'); ?>
 					<p class="note"><a href="<?php echo get_permalink(3987) ?>">Politique de confidentialité</a></p>
                 </div>
                 <script type="text/javascript">
