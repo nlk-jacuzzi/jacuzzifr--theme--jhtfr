@@ -56,7 +56,7 @@ if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
                     }
                     else { ?>
                         <p style="font-size: 24px;margin-bottom: .5em;margin-top: -68px;font-family: 'GSBQ';"></p>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/quote/RequestQuoteDefaultTubs.png" />
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/quote/RequestQuoteDefaultTubs.png" />
                     <?php } ?>
                 </div>
             </div>
