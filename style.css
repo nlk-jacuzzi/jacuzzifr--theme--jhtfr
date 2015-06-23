@@ -156,4 +156,11 @@ body.quote p.note a
     text-decoration: none;
 }
 
+.page .bd.request-pricing .twoCol .side {
+    margin-top: 130px;
+    padding: 0px;
+    text-align: center;
+    width: 460px;
+}
+
 
