@@ -163,4 +163,7 @@ body.quote p.note a
     width: 460px;
 }
 
-
+.ginput_complex span.name_first {
+    position: relative;
+    left: 1px;
+}
