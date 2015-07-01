@@ -15,7 +15,7 @@
             		<h3><a href="<?php echo get_permalink(3745) ?>"><span class="yellow">Brochure</span><br /><span class="white">gratuite</span></a></h3>
                 </div>
             	<div class="request-quote">
-                	<h3><a href="<?php echo get_permalink(9674) ?>"><span class="yellow">Trouver</span><br /><span class="white">un distributeur</span></a></h3>
+                	<h3><a href="<?php echo get_permalink(9674) ?>"><span class="yellow">DEMANDE</span><br /><span class="white">DE PRIX</span></a></h3>
                 </div>
             </li></ul>
     </div>
