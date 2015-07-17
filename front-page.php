@@ -11,10 +11,10 @@ define('DONOTCACHEPAGE', true);
 get_header(); ?>
     <div class="hero">
 
-        <div class="slide9 slide" style="position: absolute; top: 0; left: 0; background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/heros/French-j-500-french.jpg);">
+        <div class="slide9 slide" style="position: absolute; top: 0; left: 0; background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/heros/Prolink-FR.jpg);">
             <a class="slidebg" target="_blank" href="<?php echo get_stylesheet_directory_uri(); ?>/images/heros/French-j-500-french.jpg"></a>
             <div class="wrap">
-                <a href="<?php echo get_bloginfo('url') ?>/j-500/" target="_blank" class="" style="display: block; position: relative; width: 200px; height: 40px; left: 116px; margin-left: -100px; top: 307px;">&nbsp;</a>
+                <a href="<?php echo get_bloginfo('url') ?>/j-500/" target="_blank" class="" style="display: block; position: relative; width: 330px; height: 40px; top: 177px; left: -20px;">&nbsp;</a>
             </div>
         </div>
 		
